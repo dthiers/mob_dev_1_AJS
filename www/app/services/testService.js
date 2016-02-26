@@ -1,3 +1,8 @@
-applcication.service('testService', function(){
+application.service('testService', function(){
+
+
+this.alert = function(){
+  alert("alert from testService!");
+}
 
 });
