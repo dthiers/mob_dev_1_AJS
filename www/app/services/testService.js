@@ -1,0 +1,3 @@
+applcication.service('testService', function(){
+
+});
