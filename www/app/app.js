@@ -16,7 +16,7 @@ var application = angular.module('ionic-starter', ['ionic','ngRoute'])
 
 	$routeProvider
   .when('/', {
-    templateUrl: "app/partials/home-partial"
+    templateUrl: "app/partials/home-partial.html"
   }).when('/test', {
     controller: "testCtrl",
     templateUrl: "app/partials/test-partial.html"
